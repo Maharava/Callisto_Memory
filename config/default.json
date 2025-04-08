@@ -1,0 +1,16 @@
+{
+  "memory_limit": "512MB",
+  "cache_size": "256MB",
+  "default_memory_category": "general",
+  "auto_save_interval": 300,
+  "log_level": "INFO",
+  "log_file": "callisto.log",
+  "data_directory": "./data",
+  "backup_enabled": true,
+  "backup_interval": 86400,
+  "allowed_memory_types": [
+    "text",
+    "image",
+    "audio"
+  ]
+}

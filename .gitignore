@@ -1,0 +1,46 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+
+# User data and logs - don't commit personal data
+data/
+logs/
+
+# Config files that might contain secrets
+config/*
+!config/default.json
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# System specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
